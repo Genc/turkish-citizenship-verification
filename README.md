@@ -156,7 +156,7 @@ Response
 ```
 ### Swagger UI
 
-[http://turkish.citizenshipverification.online/swagger-ui.html/](http://turkish.citizenshipverification.online/swagger-ui.html/)
+[http://turkish.citizenshipverification.online/swagger-ui.html](http://turkish.citizenshipverification.online/swagger-ui.html)
 
 ### Todos
 
