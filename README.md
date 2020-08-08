@@ -11,13 +11,12 @@ There are **three services** to verify Turkish citizenship.
 
 The purpose of this project is to provide **REST** service.
 
-This service uses the services provided by ***Republic of Turkey Ministry of Interior General Directorate of Population and Citizenship Affairs*** on the backside.
+This service uses the services provided by ***Republic of Turkey Ministry of Interior General Directorate of Population and Citizenship Affairs*** on the backside. nvi.gov.tr services use **SOAP**.
 
 -   [https://tckimlik.nvi.gov.tr/Service/KPSPublic.asmx](https://tckimlik.nvi.gov.tr/Service/KPSPublic.asmx)
 -   [https://tckimlik.nvi.gov.tr/Service/KPSPublicV2.asmx](https://tckimlik.nvi.gov.tr/Service/KPSPublicV2.asmx)
 -   [https://tckimlik.nvi.gov.tr/Service/KPSPublicYabanciDogrula.asmx](https://tckimlik.nvi.gov.tr/Service/KPSPublicYabanciDogrula.asmx)
 
-nvi.gov.tr services use **SOAP**.
 
 ## REST Endpoints
 The following REST endpoints are available:
@@ -40,7 +39,7 @@ JSON
 {
   "identityNo": 11111111111,
   "name": "KÂZIM",
-  "surname": "KARABEKİR"
+  "surname": "KARABEKİR",
   "birthYear": 1882,
 }
 ```
@@ -132,7 +131,7 @@ JSON
 
 ```json
 {
-  "identityNo": 11111111111
+  "identityNo": 11111111111,
   "birthYear": 1882,
 }
 ```
