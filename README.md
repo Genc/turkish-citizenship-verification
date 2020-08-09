@@ -17,6 +17,15 @@ This service uses the services provided by ***Republic of Turkey Ministry of Int
 -   [https://tckimlik.nvi.gov.tr/Service/KPSPublicV2.asmx](https://tckimlik.nvi.gov.tr/Service/KPSPublicV2.asmx)
 -   [https://tckimlik.nvi.gov.tr/Service/KPSPublicYabanciDogrula.asmx](https://tckimlik.nvi.gov.tr/Service/KPSPublicYabanciDogrula.asmx)
 
+## Run the Application
+
+Navigate to the root of the project. For building the project using command line, run below command :
+
+``` mvn clean install```
+
+Run service in command line. Navigate to *target* directory. 
+
+``` java -jar turkish-citizenship-verification.jar ```
 
 ## REST Endpoints
 The following REST endpoints are available:
