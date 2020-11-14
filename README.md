@@ -91,7 +91,7 @@ JSON
 cURL Request
 
 ```
-curl -X POST curl -X POST "http://turkish.citizenshipverification.online/detailed-verification" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"identityNo\": 11111111111, \"name\": \"MUSTAFA FEVZİ\", \"surname\": \"ÇAKMAK\", \"hasNotSurname\": false, \"birthDay\": 12, \"hasNotDayOfBirth\": false, \"birthMonth\": 1, \"hasNotMonthOfBirth\": false, \"birthYear\": 1876, \"serialCode\": null, \"serialNumber\": null, \"documentNo\": \"M99F11276\"}"
+curl -X POST "http://turkish.citizenshipverification.online/detailed-verification" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"identityNo\": 11111111111, \"name\": \"MUSTAFA FEVZİ\", \"surname\": \"ÇAKMAK\", \"hasNotSurname\": false, \"birthDay\": 12, \"hasNotDayOfBirth\": false, \"birthMonth\": 1, \"hasNotMonthOfBirth\": false, \"birthYear\": 1876, \"serialCode\": null, \"serialNumber\": null, \"documentNo\": \"M99F11276\"}"
 ```
 
 Response 
