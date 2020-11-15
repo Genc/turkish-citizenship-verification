@@ -167,7 +167,7 @@ Response
 
 [http://turkish.citizenshipverification.online/swagger-ui.html](http://turkish.citizenshipverification.online/swagger-ui.html)
 
-### Todos
+### Todo
 
  - [ ] Will be add new verification services for other citizenships. (e.g : british.citizenshipverification.online)
 
