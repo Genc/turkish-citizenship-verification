@@ -40,7 +40,7 @@ The following REST endpoints are available:
 
 Request URL
 
-```http://turkish.citizenshipverification.online/simple-verification```
+```https://trverification.omerfarukgenc.com.tr/simple-verification```
 
 JSON
 
@@ -55,7 +55,7 @@ JSON
 
 cURL Request
 
-    curl -X POST "http://turkish.citizenshipverification.online/simple-verification" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"birthYear\": 1882, \"identityNo\": 11111111111, \"name\": \"KÂZIM\", \"surname\": \"KARABEKİR\"}"
+    curl -X POST "https://trverification.omerfarukgenc.com.tr/simple-verification" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"birthYear\": 1882, \"identityNo\": 11111111111, \"name\": \"KÂZIM\", \"surname\": \"KARABEKİR\"}"
 
 Response 
 
@@ -67,7 +67,7 @@ false
  
 Request URL
 
-```http://turkish.citizenshipverification.online/detailed-verification```
+```https://trverification.omerfarukgenc.com.tr/detailed-verification```
 
 JSON
 
@@ -91,7 +91,7 @@ JSON
 cURL Request
 
 ```
-curl -X POST "http://turkish.citizenshipverification.online/detailed-verification" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"identityNo\": 11111111111, \"name\": \"MUSTAFA FEVZİ\", \"surname\": \"ÇAKMAK\", \"hasNotSurname\": false, \"birthDay\": 12, \"hasNotDayOfBirth\": false, \"birthMonth\": 1, \"hasNotMonthOfBirth\": false, \"birthYear\": 1876, \"serialCode\": null, \"serialNumber\": null, \"documentNo\": \"M99F11276\"}"
+curl -X POST "https://trverification.omerfarukgenc.com.tr/detailed-verification" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"identityNo\": 11111111111, \"name\": \"MUSTAFA FEVZİ\", \"surname\": \"ÇAKMAK\", \"hasNotSurname\": false, \"birthDay\": 12, \"hasNotDayOfBirth\": false, \"birthMonth\": 1, \"hasNotMonthOfBirth\": false, \"birthYear\": 1876, \"serialCode\": null, \"serialNumber\": null, \"documentNo\": \"M99F11276\"}"
 ```
 
 Response 
@@ -104,7 +104,7 @@ false
  
 Request URL
 
-```http://turkish.citizenshipverification.online/foreigner-verification```
+```https://trverification.omerfarukgenc.com.tr/foreigner-verification```
 
 JSON
 
@@ -122,7 +122,7 @@ JSON
 cURL Request
 
 ```
-curl -X POST "http://turkish.citizenshipverification.online/foreigner-verification" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"identityNo\": 99999999999, \"name\": \"MUSA\", \"surname\": \"ESKENAZİ\", \"birthDay\": 1, \"birthMonth\": 1, \"birthYear\": 1855}"
+curl -X POST "https://trverification.omerfarukgenc.com.tr/foreigner-verification" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"identityNo\": 99999999999, \"name\": \"MUSA\", \"surname\": \"ESKENAZİ\", \"birthDay\": 1, \"birthMonth\": 1, \"birthYear\": 1855}"
 ```
 
 Response 
@@ -134,7 +134,7 @@ false
 
 Request URL
 
-```http://turkish.citizenshipverification.online/simple-verification```
+```https://trverification.omerfarukgenc.com.tr/simple-verification```
 
 JSON
 
@@ -148,7 +148,7 @@ JSON
 cURL Request
 
 ```
-curl -X POST "http://turkish.citizenshipverification.online/simple-verification" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"birthYear\": 1882, \"identityNo\": 11111111111}"
+curl -X POST "https://trverification.omerfarukgenc.com.tr/simple-verification" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"birthYear\": 1882, \"identityNo\": 11111111111}"
 ```
 
 Response 
@@ -165,7 +165,7 @@ Response
 ```
 ### Swagger UI
 
-[http://turkish.citizenshipverification.online/swagger-ui.html](http://turkish.citizenshipverification.online/swagger-ui.html)
+[https://trverification.omerfarukgenc.com.tr/swagger-ui.html](https://trverification.omerfarukgenc.com.tr/swagger-ui.html)
 
 ### Todo
 
